@@ -9650,3 +9650,12 @@ body{
   width: 45px;
    height: 45px;
 }
+
+.about-text{
+  color: black !important;
+}
+
+.blog-text{
+  color: black !important;
+  padding-top: 25px;
+}
