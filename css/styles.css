@@ -1,0 +1,267 @@
+body{
+    background-color:   #e7cbc9  !important;
+}
+
+.navbar-button{
+    background-color:  #ba6a62 !important;
+     border: none  !important;
+     color: #e7cbc9  !important;
+}
+.cart-row{
+   height: fit-content;
+}
+
+.navbar-heading{
+    color:  #ba6a62 !important;
+    font-family: 'Charmonman', cursive;
+}
+
+.cart-heading{
+    padding-left: 2.5%;
+    color: rgb(176, 214, 218);
+}
+.product-description{
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    vertical-align: middle;
+    color: rgb(216, 240, 242);
+
+}
+.cart-sub-heading-row{
+    height: 60px;
+    max-height: 80px;
+  
+    
+}
+
+.cart-subheadings{
+    height: fit-content;
+    color:rgb(216, 240, 242);
+}
+
+.cart-subheading-md{
+    visibility: hidden;
+}
+
+.underline{
+    color:rgb(216, 240, 242);
+}
+.cart-image{
+    min-width: 250px;
+    min-height: 250px;
+}
+.price{
+   text-align: center;
+  margin-top: 45%;
+  display: inline-block;
+  padding-left: 10px  ;
+  color:rgb(216, 240, 242);
+}
+
+.currency{
+    margin-top: 45%;
+    display: inline-block;
+    color:rgb(216, 240, 242);
+}
+.shopping-bag-container{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    background-color: rgb(78, 92, 141)  !important;
+   height: 100vh;
+
+}
+
+.subtotal-bar{
+    background-color: rgb(19, 28, 75);
+}
+
+.subtotal-button-left{
+    margin-left: 10%;
+    background-color:  rgb(78, 92, 141)    !important;
+    border: none !important;
+}
+
+.subtotal-button-right{
+    margin-right: 10%;
+    background-color:  rgb(78, 92, 141)     !important;
+    border: none !important;
+}
+
+.subtotal{
+    color: rgb(176, 214, 218);
+}
+.subtotal-value{
+    padding-left: 15px;
+    color:  rgb(176, 214, 218);
+    padding-bottom: 8px;
+}
+
+.quantity-button{
+    text-align: center;
+    width: 35px;
+    background-color:   rgb(26, 36, 93) !important;
+     border: none !important;
+     color:rgb(143, 194, 199) !important;
+}
+
+.quantity-item2{
+    display: inline-block;
+    text-align: center;
+    padding-top: 45%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    color:rgb(216, 240, 242);
+}
+
+.total-item1{
+    text-align: center;
+ margin-top: 45%;
+  display: inline-block;
+  padding-left: 10px;
+  color:rgb(216, 240, 242);
+}
+
+.remove-button{
+    background-color:  rgb(26, 36, 93) !important;
+     border: none !important;
+     color: rgb(143, 194, 199) !important;
+}
+.remove-button-div{
+   padding-top: 45%;
+   
+}
+
+.product-heading{
+    visibility: hidden;
+   
+}
+
+.hero-buttons{
+
+}
+
+@media  (max-width: 991.5px) {
+.cart-subheadings{
+    visibility: hidden;
+}
+
+.product-heading{
+    visibility: visible;
+    padding-top: 10%;
+    color:rgb(216, 240, 242);
+}
+
+.cart-subheading-md{
+    visibility: visible;
+    color:rgb(216, 240, 242);
+}
+
+.price{
+    text-align: center;
+   margin-top: 5%;
+   display: inline-block;
+   padding-left: 10px  ;
+ }
+
+ .currency{
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.quantity-item2{
+    display: inline-block;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+
+.total-item1{
+    text-align: center;
+ margin-top: 5%;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.remove-button{
+    padding-top: 5%;
+ }
+
+ .remove-button-div{
+    padding-top: 5%;
+    
+ }
+
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.slider_text > span {
+    /* text-transform: capitalize; */
+    font-size:3.5vh;
+    color:white;
+    font-weight: 10;
+    font-family: 'Merienda', cursive;
+    display: block;
+  }
+
+   .slider_text h3 {
+    
+    color:  #ba6a62 !important;
+    font-family: 'Charmonman', cursive;
+    font-size: 8vh;
+    
+    
+    line-height: 1;
+    font-weight: 550;
+  }
+
+  .hero-text{
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .slider_text{
+    
+        position: relative;
+        top: 20px;
+        bottom: 40px;
+        left: 60px;
+        width: 600px;
+        text-align: left;
+        z-index: 9999;
+        
+      
+  }
+
+.carousel-item {
+    transition-duration: 1.5s !important;
+    
+  }
+
+  .slider-inner {
+    position: absolute;
+    overflow: hidden;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+
+  /* .bg{
+  
+    opacity: 0.5;
+  } */
+
+  
