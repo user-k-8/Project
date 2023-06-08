@@ -206,7 +206,7 @@ body{
 
 .slider_text > span {
     /* text-transform: capitalize; */
-    font-size:25px;
+    font-size:large;
     color:white;
     font-weight: 10;
     font-family: 'Merienda', cursive;
