@@ -238,7 +238,7 @@ body{
         font-family: 'Merienda', cursive;
         display: block;
         width: 100%;
-        font-size: 4vw;
+        font-size: 4.2vw;
         
       }
 
@@ -246,7 +246,7 @@ body{
     
         color:  #ba6a62 !important;
         font-family: 'Charmonman', cursive;
-        font-size:5vw;
+        font-size:5.2vw;
         
         
         
@@ -287,9 +287,8 @@ body{
    
   }
 
-  /* .bg{
-  
-    opacity: 0.5;
-  } */
+ .hero-img{
+    min-height: 350px;
+ }
 
   
