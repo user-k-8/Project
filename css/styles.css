@@ -206,7 +206,7 @@ body{
 
 .slider_text > span {
     /* text-transform: capitalize; */
-    font-size:3.5vh;
+    font-size:3vh;
     color:white;
     font-weight: 10;
     font-family: 'Merienda', cursive;
@@ -217,7 +217,7 @@ body{
     
     color:  #ba6a62 !important;
     font-family: 'Charmonman', cursive;
-    font-size: 8vh;
+    font-size: 7vh;
     
     
     line-height: 1;
