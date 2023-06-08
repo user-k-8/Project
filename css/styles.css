@@ -231,7 +231,7 @@ body{
   .slider_text{
     
         position: relative;
-        top: 20px;
+        top: 1px;
         bottom: 40px;
         left: 60px;
         width: 600px;
