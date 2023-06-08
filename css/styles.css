@@ -213,15 +213,15 @@ body{
     font-family: 'Merienda', cursive;
     display: block;
     width: 100%;
-    font-size: 2vw;
-    max-width: 500px;
+    font-size: 3vw;
+    
   }
 
    .slider_text h3 {
     
     color:  #ba6a62 !important;
     font-family: 'Charmonman', cursive;
-    font-size:3vw;
+    font-size:4vw;
     
     
   
