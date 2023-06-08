@@ -217,17 +217,13 @@ body{
     
     color:  #ba6a62 !important;
     font-family: 'Charmonman', cursive;
-    font-size: 7vh;
+    font-size: xx-large;
     
     
-    line-height: 1;
-    font-weight: 550;
+  
   }
 
-  .hero-text{
-    padding-bottom: 5px;
-    padding-top: 5px;
-  }
+  
   .slider_text{
     
         position: relative;
