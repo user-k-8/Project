@@ -238,7 +238,7 @@ body{
         font-family: 'Merienda', cursive;
         display: block;
         width: 100%;
-        font-size: 4.3vw;
+        font-size: 4.5vw;
         
       }
 
@@ -256,7 +256,7 @@ body{
         position: relative;
         top: 1px;
         bottom: 40px;
-        left: 60px;
+        left: 15px;
         width: 800px;
         text-align: left;
         z-index: 9999;
