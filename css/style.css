@@ -9656,3 +9656,6 @@ body{
   color: black !important;
   padding-top: 25px;
 }
+.slide-image{
+  max-height: 550px !important;
+}
