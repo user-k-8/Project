@@ -227,6 +227,34 @@ body{
   
   }
 
+@media  (max-width: 500px) {
+
+    .slider_text > span {
+        /* text-transform: capitalize; */
+    
+       
+        color:white;
+        font-weight: 10;
+        font-family: 'Merienda', cursive;
+        display: block;
+        width: 100%;
+        font-size: 4vw;
+        
+      }
+
+      .slider_text h3 {
+    
+        color:  #ba6a62 !important;
+        font-family: 'Charmonman', cursive;
+        font-size:5vw;
+        
+        
+        
+      }
+   
+    }
+
+
   
   .slider_text{
     
