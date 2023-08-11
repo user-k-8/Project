@@ -80,9 +80,10 @@ function itemOutput(i){
                 <h6>R${storeItems[i].price}</h6><h6 class="text-muted ml-2"><del>R${storeItems[i].prevprice}</del></h6>
             </div>
         </div>
-        <div class="card-footer d-flex jjustify-content-center bg-light text-center">
+        <div class="card-footer d-flex  bg-light ">
             <a  class="btn btn-sm text-dark p-0 justify-content-center" onclick = "addToCart(${i})"  ><i class="justify-content-center fas fa-shopping-cart text-primary mr-1 text-center"></i>Add To Cart</a>
-        </div>
+            <div style="padding-left:180px;"><a  class="btn btn-sm text-dark p-0 "  href="cart2.html"  ><i class="justify-content-center fas fa-shopping-cart text-primary mr-1 text-center"></i>Go To Cart</a></div>
+            </div>
     </div>
 </div>`
   return itemHTML;
