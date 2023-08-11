@@ -71,11 +71,13 @@ function add(i){
 function remove(i){
   localStorage.removeItem(i.id);
   cartOutput();
+  displayQuantity();
 }
 
 function clearCart(){
     localStorage.clear();
     cartOutput();
+    displayQuantity();
 }
 
 cartOutput();
