@@ -50,17 +50,17 @@
         <div class="col-md-auto col-lg-4 text-center">
           <button type="button" class="btn btn-outline-primary me-2 navbar-button btn-lg display-4">Login</button>
           <a href="cart2.html" class="btn border">
-              <i class="fas fa-shopping-cart text-primary"></i>
-              <div class="cart-items-no badge" id="cart-items-no">0</div>
-          </a>
+            <i class="fas fa-shopping-cart text-primary"></i>
+            <div class="cart-items-no badge"></div>
+    </a>
         </div>        
       </header>
   </div>
     <div class="col-md-12 col-lg-12 text-center nav-buttons container-fluid">
-      <a href="index.html" ><button type="button" class="btn btn-outline-primary me-2 navbar-button btn-lg display-4">Home</button></a>
-      <a href="about.html" ><button type="button" class="btn btn-outline-primary me-2 navbar-button btn-lg display-4">About</button></a>
-      <a href="blog.html" ><button type="button" class="btn btn-outline-primary me-2 navbar-button btn-lg display-4">Blog</button></a>
-      <a href="shop2.html" ><button type="button" class="btn btn-outline-primary me-2 navbar-button btn-lg display-4">Shop</button></a>
+      
+      <a href="about.html" ><button type="button" class="btn btn-primary me-2 navbar-button btn-lg display-4">About</button></a>
+      <a href="blog.html" ><button type="button" class="btn btn-primary me-2 navbar-button btn-lg display-4">Blog</button></a>
+      <a href="shop2.html" ><button type="button" class="btn btn-primary me-2 navbar-button btn-lg display-4">Shop</button></a>
       </div> 
     <!-- Topbar End -->
 
@@ -80,39 +80,97 @@
 
     <!-- Cart Start -->
 
-    <main class="main-pages container">
-        <section class="cart-products container-fluid" >
-            <div class="product-rows all-cart-items-container" id="product-rows"></div> 
-            <div class="label" id="label"></div>
-        </section>
-    </main>
+    <div class="container-fluid pt-5">
+      <div class="row px-xl-5">
+          <div class="col-lg-8 table-responsive mb-5">
+              <table class="table table-bordered text-center mb-0">
+                  <thead class="bg-secondary text-dark">
+                      <tr>
+                          <th>Products</th>
+                          <th>Price</th>
+                          <th>Quantity</th>
+                          <th>Total</th>
+                          <th>Remove</th>
+                      </tr>
+                  </thead>
+                  <tbody class="align-middle" id="cart-container">
+                      <tr>
+                          <td class="align-middle"><img src="img/product-1.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                          <td class="align-middle">$150</td>
+                          <td class="align-middle">
+                              <div class="input-group quantity mx-auto" style="width: 100px;">
+                                  <div class="input-group-btn">
+                                      <button class="btn btn-sm btn-primary btn-minus" >
+                                     
+                                      -
+                                      </button>
+                                  </div>
+                                  <!-- <input type="text" class="form-control form-control-sm bg-secondary text-center" value="1"> -->
+                                  <div >&emsp;1&emsp;</div>
+                                  <div class="input-group-btn">
+                                      <button class="btn btn-sm btn-primary btn-plus">
+                                         
+                                          +
+                                      </button>
+                                  </div>
+                              </div>
+                          </td>
+                          <td class="align-middle">$150</td>
+                          <td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times">x</i></button></td>
+                      </tr>
+                  
+                  </tbody>
+              </table>
+          </div>
+          
+          <div class="col-lg-4">
+              <button class="btn btn-primary" onclick="clearCart()">Clear Cart</button><br><br>
+              <form class="mb-5" action="">
+                  <div class="input-group">
+                      <input type="text" class="form-control p-4" placeholder="Coupon Code">
+                      <div class="input-group-append">
+                          <button class="btn btn-primary">Apply Coupon</button>
+                      </div>
+                  </div>
+              </form>
+              <div class="card border-secondary mb-5">
+                  <div class="card-header bg-secondary border-0">
+                      <h4 class="font-weight-semi-bold m-0">Cart Summary</h4>
+                  </div>
+                  <div class="card-body">
+                      <div class="d-flex justify-content-between mb-3 pt-1">
+                          <h6 class="font-weight-medium">Subtotal</h6>
+                          <h6 class="font-weight-medium" id="subtotal"></h6>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                          <h6 class="font-weight-medium">Shipping</h6>
+                          <h6 class="font-weight-medium">R 50</h6>
+                      </div>
+                  </div>
+                  <div class="card-footer border-secondary bg-transparent">
+                      <div class="d-flex justify-content-between mt-2">
+                          <h5 class="font-weight-bold">Total</h5>
+                          <h5 class="font-weight-bold" id="total"></h5>
+                      </div>
+                      <button class="btn btn-block btn-primary my-3 py-3">Proceed To Checkout</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
     
     <!-- Cart End -->
 
 
  
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="font-awesome/all.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/shopItems.js"></script>
-    <script src="js/cartPage.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+     <!-- Back to Top -->
+     <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+     <script src="font-awesome/all.js"></script>
+     <script src ='js/cartquantity.js'></script>
+     <script src="js/shopItems.js"></script>
+     <script src="js/cart.js"></script>
+     
 </body>
 
 </html>
